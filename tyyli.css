@@ -1,6 +1,7 @@
 body {
-    background-image:url("woman-2359562_1920.jpg");
+    background-image:url("model-3740627_1920.jpg");
     background-position: center;
+    background-size: 
     background-repeat: no-repeat;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
@@ -99,6 +100,90 @@ body {
         @media only screen and (min-width:1024px)
 
     {
+        
+    }
+
+    .pricing {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 2rem;
+
+    }
+
+    .card-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 320px;
+        height: auto;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 5px 14px rgba (0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+        padding: 2rem;
+        margin: 1rem;
+        transition: all 0.2s ease-in;
+
+    }
+
+    .card-wrapper:hover{
+     transform: scale(1.1);
+
+    }
+
+    .card-header {
+    margin: 1rem;
+    text-align: center;
+
+    }
+
+    .card-wrapper:hover .card-header> h2{
+        transform: scale(1.1);
+        color:#ea1538;
+        letter-spacing: 2;
+    }
+
+    .card-detail {
+      width: 100%;
+
+    }
+
+    .card-detail > p {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.8rem;
+        border-bottom: 1px solid #d5d5d5;
+    }
+
+    .card-detail > p:hover {
+        background-color: #d5d5d5;
+    }
+
+    .card-price {
+        display: flex;
+        align-items: flex-start;
+        margin: 1rem;
+    }
+
+    .card-price > p {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    .card-price > p > sup,
+    .card.price > p > sup {
+        font-size: 1rem;
+    }
+
+    .card-button {
+        padding: 0.6rem 3rem;
+        border: 2px solid #ea1538;
+        background-color: #ea1538;
+        color: #fff;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 50ms ease-in;
         
     }
 
