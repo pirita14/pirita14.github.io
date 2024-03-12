@@ -272,8 +272,9 @@ grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(25rem, 1fr))
     gap: 2rem;
-
 }
+
+
 
 .services .box-container .box{
 height: 100%;
